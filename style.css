@@ -14,6 +14,7 @@ body{
 }
 
 span{
+    width: 80%;
     animation: fade .3s linear 1;
 }
 
