@@ -15,6 +15,9 @@ body{
 
 span{
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     animation: fade .3s linear 1;
 }
 
@@ -38,7 +41,7 @@ button{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin-top: 3%;
+    margin-top: 15px;
     z-index: 1000;
 
 }
