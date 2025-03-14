@@ -1,8 +1,7 @@
 
 let element = document.getElementById("span");
 
-function click(){
-let element = document.getElementsByTagName("span");
+function clickED(){
+let element = document.getElementById("span");
     element.style.color ="blue";
-    console.log("Haha")
 }
