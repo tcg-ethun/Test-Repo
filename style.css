@@ -5,43 +5,44 @@
     font-family: "Poppins";
 }
 body{
-    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: black;
+    background-color:white;
 }
-h1{
-    font-weight: 600;
-    animation: fade .4s linear 1;
-}
+
 span{
-    color: gold;
-    animation: fade .2s linear 1;
+    animation: fade .3s linear 1;
 }
+
 
 @keyframes fade {
     from{
         opacity: -0;
-        font-size: 3vw;
     }
     to{
         opacity: 1;
     }
 }
 button{
-    padding: 5px;
+    padding: 7px;
     width: 100px;
+    animation: fade .3s linear 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
-    cursor:pointer;
+    margin-top: 3%;
     z-index: 1000;
- border-radius: 5px;
 
 }
 button:hover{
-    background-color: gold;
+    background-color: rgb(210, 210, 207);
     transition: background-color .2s;
 }
+
